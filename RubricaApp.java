@@ -19,7 +19,7 @@ public class RubricaApp extends JFrame {
         getContentPane().setLayout(new BorderLayout());
 
         // Creazione della tabella dei contatti
-        tableModel = new DefaultTableModel(new String[]{"Nome", "Cognome", "Telefono", "Email"}, 0);
+        tableModel = new DefaultTableModel(new String[]{"Niome", "Cognome", "Telefono", "Email"}, 0);
         JTable table = new JTable(tableModel);
         JScrollPane scrollPane = new JScrollPane(table);
         getContentPane().add(scrollPane, BorderLayout.CENTER);
