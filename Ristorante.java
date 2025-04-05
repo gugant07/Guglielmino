@@ -69,7 +69,7 @@ public class Ristorante {
         panel.setLayout(null);
 
         comboBox = new JComboBox<>();
-        comboBox.setModel(new DefaultComboBoxModel<>(new String[] {"margherita", "niente", "bufala", "capricciosa", "michaeltonsy", "4 stagioni", "panino con hamburgus", "mac chicken"}));
+        comboBox.setModel(new DefaultComboBoxModel<>(new String[] {"margheritia", "niente", "bufala", "capricciosa", "michaeltonsy", "4 stagioni", "panino con hamburgus", "mac chicken"}));
         comboBox.setBounds(10, 102, 150, 22);
         panel.add(comboBox);
 
